@@ -34,12 +34,27 @@ A resource should meet **all** of these:
    - Append `` `[video]` `` for video content.
    - Keep the title close to the original; add a short clarifier after a colon if the title alone is vague.
 3. Within a section, keep **Explainer** entries first, then code entries roughly in the order a learner should tackle them (easiest first).
-4. Open a pull request using the template.
+4. Check your change locally (needs only Python 3):
+
+   ```bash
+   python3 scripts/validate_readme.py README.md
+   ```
+
+   It checks entry format, duplicate URLs and that every Contents anchor resolves. CI runs the same script on every pull request, plus a link checker.
+5. Open a pull request using the template. Keep one topic per PR so it is quick to review.
 
 ## Reporting a dead or outdated link
 
 Open an issue with the **Broken link** template, or send a PR that fixes or removes it. A link-checker workflow also runs weekly and opens an issue automatically when links break.
 
+## Review
+
+PRs are normally reviewed within a week. A maintainer may ask you to adjust the section, wording or ordering. If a PR sits without a reply for two weeks, feel free to comment on it.
+
+## Licence of your contribution
+
+This list is released under [CC0 1.0](LICENSE). By submitting a pull request you agree your contribution to the list (the entry text, not the linked resource) is released under the same terms. Linked resources keep their own licences.
+
 ## Code of conduct
 
-Be kind, be specific, assume good intent. Maintainers may close contributions or issues that are hostile or spammy.
+Everyone taking part is expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md). Maintainers may close contributions or issues that are hostile or spammy.

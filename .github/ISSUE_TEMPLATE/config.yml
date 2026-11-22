@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/Shashwat-19/build-your-own-ai/discussions
+    about: Ask for a learning path or talk about the list. Enable Discussions in repo settings first.

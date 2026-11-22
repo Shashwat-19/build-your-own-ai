@@ -89,7 +89,7 @@ Not sure where to begin? Follow the stack from the bottom up:
 * [**Python**: _The spelled-out intro to neural networks and backpropagation_](https://www.youtube.com/watch?v=VMj-3S1tku0) `[video]`
 * [**Python**: _Machine Learning for Beginners: An Introduction to Neural Networks_](https://victorzhou.com/blog/intro-to-neural-networks/)
 * [**Python**: _CNNs, Part 1: An Introduction to Convolutional Neural Networks_](https://victorzhou.com/blog/intro-to-cnns-part-1/)
-* [**Python**: _Neural Networks and Deep Learning_ (free online book)](http://neuralnetworksanddeeplearning.com/)
+* [**Python**: _Neural Networks and Deep Learning_](http://neuralnetworksanddeeplearning.com/) (free online book)
 
 ### Build your own Autograd Engine
 
@@ -335,6 +335,10 @@ Free, end-to-end curricula for when you want structure rather than a single proj
 ## Contributing
 
 Found a great tutorial? Spotted a dead link? Contributions are very welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first; the bar is simple: **it must be free, and it must teach you to build the thing, not just use it.**
+
+- Suggest a resource: [open an issue](https://github.com/Shashwat-19/build-your-own-ai/issues/new/choose) or send a PR
+- Report a broken link: [issues](https://github.com/Shashwat-19/build-your-own-ai/issues/new/choose)
+- Everyone is expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## Acknowledgements
 
